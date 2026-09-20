@@ -1,0 +1,26 @@
+{
+  "name": "widgetcore-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Commercial Windows Desktop Widget Hub/Store Architecture",
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "widgets/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=@widgetcore/desktop",
+    "build": "npm run build --workspaces --if-present",
+    "tauri": "npm run tauri --workspace=@widgetcore/desktop --",
+    "tauri:dev": "npm run tauri:dev --workspace=@widgetcore/desktop",
+    "tauri:build": "npm run tauri:build --workspace=@widgetcore/desktop"
+  },
+  "keywords": [
+    "tauri",
+    "windows",
+    "desktop-widgets",
+    "widget-hub"
+  ],
+  "author": "",
+  "license": "UNLICENSED"
+}

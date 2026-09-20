@@ -1,0 +1,20 @@
+{
+  "id": "clock",
+  "name": "Clock",
+  "version": "1.0.0",
+  "description": "Desktop clock widget with real-time display",
+  "type": "widget",
+  "author": "WidgetCore",
+  "category": "Productivity",
+  "entry": "src/index.ts",
+  "window": {
+    "title": "Clock Widget",
+    "width": 260,
+    "height": 260,
+    "transparent": true,
+    "decorations": false,
+    "alwaysOnTop": true,
+    "resizable": false,
+    "skipTaskbar": true
+  }
+}
